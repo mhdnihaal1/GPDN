@@ -17,7 +17,6 @@ const BlogsSection = ( {blogs}) => {
             <div className="w-full h-[25vh] md:h-auto relative rounded-3xl">
             <Image
             src={data?.imageURL  } 
-            fill
             alt="Image"
             width={600}
             height={400}
